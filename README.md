@@ -68,3 +68,58 @@ We built a regression-based ML system that:
 ---
 
 ## 📁 Project Structure
+```
+House-Price-Prediction-System/
+│
+├── 📁 data/
+│   ├── housing.csv
+│   ├── cleaned_data.csv
+│
+├── 📁 src/
+│   ├── train.py
+│   ├── preprocess.py
+│   ├── feature_engineering.py
+│   ├── evaluate.py
+│
+├── 📁 api/
+│   ├── main.py
+│   ├── schemas.py
+│   ├── utils.py
+│
+├── 📁 models/
+│   ├── model.pkl
+│
+├── 📁 dashboard/
+│   ├── dashboard.py
+│
+├── 📁 notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_model_training.ipynb
+│
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── main.py   (optional entry file)
+```
+📈 Project Workflow
+```
+Data Collection → Preprocessing → Feature Engineering → Model Training → Evaluation → API Deployment → Dashboard 
+
+```
+📊 Business Impact
+Helps real estate agents estimate property value instantly
+Assists buyers in fair pricing decisions
+Supports banks in loan valuation models
+Useful for property investment analysis
+
+🚀 Future Improvements
+Add XGBoost / LightGBM models
+Deploy on cloud (AWS / Render / HuggingFace)
+Add map-based visualization
+Improve UI with React/Next.js
+Add explainable AI (SHAP)
+
+👨‍💻 Author
+
+Shresthaa Maiti
